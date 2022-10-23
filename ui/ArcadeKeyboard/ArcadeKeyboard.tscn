@@ -1,0 +1,201 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ArcadeKeyboard/Key.tscn" type="PackedScene" id=1]
+[ext_resource path="res://ArcadeKeyboard/SmallFont.tres" type="DynamicFont" id=2]
+[ext_resource path="res://ArcadeKeyboard/ArcadeKeyboard.gd" type="Script" id=3]
+
+[node name="ArcadeKeyboard" type="GridContainer"]
+margin_right = 436.0
+margin_bottom = 128.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+columns = 10
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Key" parent="." instance=ExtResource( 1 )]
+
+[node name="Key2" parent="." instance=ExtResource( 1 )]
+margin_left = 44.0
+margin_right = 84.0
+text = "B"
+
+[node name="Key3" parent="." instance=ExtResource( 1 )]
+margin_left = 88.0
+margin_right = 128.0
+text = "C"
+
+[node name="Key4" parent="." instance=ExtResource( 1 )]
+margin_left = 132.0
+margin_right = 172.0
+text = "D"
+
+[node name="Key5" parent="." instance=ExtResource( 1 )]
+margin_left = 176.0
+margin_right = 216.0
+text = "E"
+
+[node name="Key6" parent="." instance=ExtResource( 1 )]
+margin_left = 220.0
+margin_right = 260.0
+text = "F"
+
+[node name="Key7" parent="." instance=ExtResource( 1 )]
+margin_left = 264.0
+margin_right = 304.0
+text = "G"
+
+[node name="Key8" parent="." instance=ExtResource( 1 )]
+margin_left = 308.0
+margin_right = 348.0
+text = "H"
+
+[node name="Key9" parent="." instance=ExtResource( 1 )]
+margin_left = 352.0
+margin_right = 392.0
+text = "I"
+
+[node name="Key10" parent="." instance=ExtResource( 1 )]
+margin_left = 396.0
+margin_right = 436.0
+text = "J"
+
+[node name="Key11" parent="." instance=ExtResource( 1 )]
+margin_top = 44.0
+margin_bottom = 84.0
+text = "K"
+
+[node name="Key12" parent="." instance=ExtResource( 1 )]
+margin_left = 44.0
+margin_top = 44.0
+margin_right = 84.0
+margin_bottom = 84.0
+text = "L"
+
+[node name="Key13" parent="." instance=ExtResource( 1 )]
+margin_left = 88.0
+margin_top = 44.0
+margin_right = 128.0
+margin_bottom = 84.0
+text = "M"
+
+[node name="Key14" parent="." instance=ExtResource( 1 )]
+margin_left = 132.0
+margin_top = 44.0
+margin_right = 172.0
+margin_bottom = 84.0
+text = "N"
+
+[node name="Key15" parent="." instance=ExtResource( 1 )]
+margin_left = 176.0
+margin_top = 44.0
+margin_right = 216.0
+margin_bottom = 84.0
+text = "O"
+
+[node name="Key16" parent="." instance=ExtResource( 1 )]
+margin_left = 220.0
+margin_top = 44.0
+margin_right = 260.0
+margin_bottom = 84.0
+text = "P"
+
+[node name="Key17" parent="." instance=ExtResource( 1 )]
+margin_left = 264.0
+margin_top = 44.0
+margin_right = 304.0
+margin_bottom = 84.0
+text = "Q"
+
+[node name="Key18" parent="." instance=ExtResource( 1 )]
+margin_left = 308.0
+margin_top = 44.0
+margin_right = 348.0
+margin_bottom = 84.0
+text = "R"
+
+[node name="Key19" parent="." instance=ExtResource( 1 )]
+margin_left = 352.0
+margin_top = 44.0
+margin_right = 392.0
+margin_bottom = 84.0
+text = "S"
+
+[node name="Key20" parent="." instance=ExtResource( 1 )]
+margin_left = 396.0
+margin_top = 44.0
+margin_right = 436.0
+margin_bottom = 84.0
+text = "T"
+
+[node name="Key21" parent="." instance=ExtResource( 1 )]
+margin_top = 88.0
+margin_bottom = 128.0
+text = "U"
+
+[node name="Key22" parent="." instance=ExtResource( 1 )]
+margin_left = 44.0
+margin_top = 88.0
+margin_right = 84.0
+margin_bottom = 128.0
+text = "V"
+
+[node name="Key23" parent="." instance=ExtResource( 1 )]
+margin_left = 88.0
+margin_top = 88.0
+margin_right = 128.0
+margin_bottom = 128.0
+text = "W"
+
+[node name="Key24" parent="." instance=ExtResource( 1 )]
+margin_left = 132.0
+margin_top = 88.0
+margin_right = 172.0
+margin_bottom = 128.0
+text = "X"
+
+[node name="Key25" parent="." instance=ExtResource( 1 )]
+margin_left = 176.0
+margin_top = 88.0
+margin_right = 216.0
+margin_bottom = 128.0
+text = "Y"
+
+[node name="Key26" parent="." instance=ExtResource( 1 )]
+margin_left = 220.0
+margin_top = 88.0
+margin_right = 260.0
+margin_bottom = 128.0
+text = "Z"
+
+[node name="Key27" parent="." instance=ExtResource( 1 )]
+margin_left = 264.0
+margin_top = 88.0
+margin_right = 304.0
+margin_bottom = 128.0
+text = "."
+
+[node name="Key28" parent="." instance=ExtResource( 1 )]
+margin_left = 308.0
+margin_top = 88.0
+margin_right = 348.0
+margin_bottom = 128.0
+text = "-"
+
+[node name="Key29" parent="." instance=ExtResource( 1 )]
+margin_left = 352.0
+margin_top = 88.0
+margin_right = 392.0
+margin_bottom = 128.0
+custom_fonts/font = ExtResource( 2 )
+text = "RUB"
+
+[node name="Key30" parent="." instance=ExtResource( 1 )]
+margin_left = 396.0
+margin_top = 88.0
+margin_right = 436.0
+margin_bottom = 128.0
+custom_fonts/font = ExtResource( 2 )
+text = "END"

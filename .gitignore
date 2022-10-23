@@ -1,0 +1,2 @@
+# ignore Godot's import metadata files (gets auto generated on project open)
+.import/
